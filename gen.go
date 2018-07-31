@@ -1,5 +1,5 @@
 // Package sdk4js contains the console JavaScript dependencies Go embedded.
-package sdk4js
+package sdk4js_bin
 
-//go:generate go-bindata -nometadata -pkg sdk4js_bin -o ./sdk4js_bin/bindata.go penta.js
-//go:generate gofmt -w -s ./sdk4js_bin/bindata.go
+//go:generate go-bindata -nometadata -pkg sdk4js_bin -o bindata.go penta.js
+//go:generate gofmt -w -s bindata.go
